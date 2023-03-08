@@ -10,6 +10,18 @@
 
 <body>
     Hello World
+    <a href="mailto:timvanbruaene@gmail.com?subject=Onderwerp&body=Tekst%20komt%20hier">Stuur een e-mail</a>
+    <form action="sendmail.php" method="post">
+        <label for="naam">Naam:</label>
+        <input type="text" id="naam" name="naam"><br>
+
+        <label for="email">E-mailadres:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="bericht">Bericht:</label>
+        <textarea id="bericht" name="bericht"></textarea><br>
+
+        <input type="submit" value="Verstuur">
 </body>
 
 </html>
